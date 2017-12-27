@@ -12,7 +12,7 @@ RUN pip install --upgrade cffi
 RUN pip install cairocffi
 
 RUN git clone https://github.com/jdevoo/twecoll.git
-ADD .twecoll /root
+ADD ./twecoll /root
 
 WORKDIR /app
 VOLUME /app
